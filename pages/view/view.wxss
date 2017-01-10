@@ -1,0 +1,8 @@
+
+.flex-wrp, view.flex-item{display: flex;}
+
+view.flex-item{width:100px; height:100px; color:#fff; justify-content: center; align-items: center;}
+
+.bc_green{background:green;}
+.bc_red{background:red;}
+.bc_blue{background:blue;}

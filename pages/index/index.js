@@ -208,4 +208,32 @@ Page({
         this.closeTunnel();
         wx.navigateTo({ url: '../chat/chat' });
     },
+    openView() {
+      this.closeTunnel();
+      wx.navigateTo({ url: '../view/view' })
+    },
+    openPicker() {
+        this.closeTunnel();
+        wx.navigateTo({ url: '../picker/picker' })
+    },
+    openAudio() {
+        this.closeTunnel();
+        wx.navigateTo({ url: '../audio/audio' })
+    },
+    openImage() {
+        this.closeTunnel();
+        wx.navigateTo({ url: '../image/image' })
+    },
+    openVideo() {
+        this.closeTunnel();
+        wx.navigateTo({ url: '../video/video' })
+    },
+    openMap() {
+      this.closeTunnel();
+      wx.navigateTo({ url: '../map/map' })
+    },
+    openCanvas() {
+      this.closeTunnel();
+      wx.navigateTo({ url: '../canvas/canvas' })
+    }
 });

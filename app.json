@@ -1,6 +1,13 @@
 {
     "pages": [
         "pages/index/index",
+        "pages/view/view",
+        "pages/picker/picker",
+        "pages/audio/audio",
+        "pages/video/video",
+        "pages/map/map",
+        "pages/image/image",
+        "pages/canvas/canvas",
         "pages/chat/chat"
     ],
     "window": {
