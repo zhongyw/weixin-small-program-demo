@@ -2,7 +2,12 @@
     "pages": [
         "pages/index/index",
         "pages/view/view",
+        "pages/scroll-view/scroll-view",
+        "pages/swiper/swiper",
+        "pages/icon/icon",
         "pages/picker/picker",
+        "pages/text/text",
+        "pages/progress/progress",
         "pages/audio/audio",
         "pages/video/video",
         "pages/map/map",

@@ -14,10 +14,45 @@
         </view>
     </view>
     <view class="line">
+        <text>scroll-view</text>
+        <view bindtap="openScrollView" class="demo">
+            scroll-view
+            <view class="link">scroll-view ></view>
+        </view>
+    </view>
+    <view class="line">
+        <text>swiper</text>
+        <view bindtap="openSwiper" class="demo">
+            swiper
+            <view class="link">swiper ></view>
+        </view>
+    </view>
+    <view class="line">
         <text>picker</text>
         <view bindtap="openPicker" class="demo">
             Picker
             <view class="link">picker ></view>
+        </view>
+    </view>
+    <view class="line">
+        <text>icon</text>
+        <view bindtap="openIcon" class="demo">
+            Icon
+            <view class="link">icon ></view>
+        </view>
+    </view>
+    <view class="line">
+        <text>text</text>
+        <view bindtap="openText" class="demo">
+            Text
+            <view class="link">text ></view>
+        </view>
+    </view>
+    <view class="line">
+        <text>progress</text>
+        <view bindtap="openProgress" class="demo">
+            Progress
+            <view class="link">progress ></view>
         </view>
     </view>
     <view class="line">

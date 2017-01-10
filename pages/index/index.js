@@ -208,9 +208,30 @@ Page({
         this.closeTunnel();
         wx.navigateTo({ url: '../chat/chat' });
     },
+
     openView() {
+        this.closeTunnel();
+        wx.navigateTo({ url: '../view/view' })
+    },
+    openScrollView() {
+        this.closeTunnel();
+        wx.navigateTo({ url: '../scroll-view/scroll-view' })
+    },
+    openSwiper() {
+        this.closeTunnel();
+        wx.navigateTo({ url: '../swiper/swiper' })
+    },
+    openIcon() {
+        this.closeTunnel();
+        wx.navigateTo({ url: '../icon/icon' })
+    },
+    openText() {
+        this.closeTunnel();
+        wx.navigateTo({ url: '../text/text' });
+    },
+    openProgress() {
       this.closeTunnel();
-      wx.navigateTo({ url: '../view/view' })
+      wx.navigateTo({ url: '../progress/progress' });
     },
     openPicker() {
         this.closeTunnel();
